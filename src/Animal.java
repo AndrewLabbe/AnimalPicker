@@ -18,6 +18,10 @@ public class Animal {
 				System.out.println("   / \\__\n  (    @\\___\n  /         O\n /   (_____/\n/_____/   U");
 				bool = true;
 			}
+			else if (res.toLowerCase().contains("fish")){
+				System.out.println("          /\"*._         _\n      .-*\'`    `*-.._.-\'/\n    < * ))     ,       ( \n      `*-._`._(__.--*\"`.\\");
+				bool = true;
+			}
 			else {
 				System.out.println("Error: Invalid option");
 			}
