@@ -26,6 +26,8 @@ public class Animal {
 				System.out.println("Error: Invalid option");
 			}
 		}
+		
+		System.out.println("Program finished.");
 	}
 	
 }
