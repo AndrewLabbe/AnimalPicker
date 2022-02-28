@@ -11,11 +11,11 @@ public class Animal {
 			String res = sc.nextLine();
 			
 			if(res.toLowerCase().contains("cat")) {
-				System.out.println("CAT ASCII ART HERE.");
+				System.out.println("(\"`-\'\'-/\").___..--\'\'\"`-._ \n `6_ 6  )   `-.  (     ).`-.__.`) \n (_Y_.)\'  ._   )  `._ `. ``-..-\' \n   _..`--\'_..-_/  /--\'_.\'\n  ((((.-\'\'  ((((.\'  (((.-\' ");
 				bool = true;
 			}
 			else if (res.toLowerCase().contains("dog")){
-				System.out.println("DOG ASCII ART HERE.");
+				System.out.println("   / \\__\n  (    @\\___\n  /         O\n /   (_____/\n/_____/   U");
 				bool = true;
 			}
 			else {
