@@ -11,8 +11,11 @@ public class Animal {
 		if(res.toLowerCase().contains("cat")) {
 			System.out.println("CAT ASCII ART HERE.");
 		}
-		else {
+		else if (res.toLowerCase().contains("dog")){
 			System.out.println("DOG ASCII ART HERE.");
+		}
+		else {
+			System.out.println("Error: Invalid option");
 		}
 	}
 	
